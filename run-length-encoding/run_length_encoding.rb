@@ -1,6 +1,17 @@
 class RunLengthEncoding
   def self.encode(input)
-    
+    array = input.split("")
+    count = 0
+    if array.empty? # use until instead?
+      array.join
+    elsif array[0] == array[1]
+      require 'pry'; binding.pry
+      count += 1
+      array << count
+      array << array[0]
+    else 
+      array.join
+    end
   end
 
   # def self.encode(input)

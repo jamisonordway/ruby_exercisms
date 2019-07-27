@@ -2,4 +2,4 @@
 
 https://exercism.io/about
 
-This is a log of coding practice using Exercism for Ruby.
+This is a log of my coding practice using Exercism for Ruby.
